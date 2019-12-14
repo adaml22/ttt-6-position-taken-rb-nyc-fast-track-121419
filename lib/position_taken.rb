@@ -2,9 +2,10 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def position_taken?(0)
+def position_taken?(board)
   if board[0] == "O" || board[0] == "X"
     true
   else
     false
+  end
 end
