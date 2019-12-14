@@ -2,10 +2,10 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def position_taken?(board)
-  if board == "O"
+def position_taken?(board[0])
+  if board[0] == "O"
     true
-  elsif board == "X"
+  elsif board[0] == "X"
     true
   else
     false
